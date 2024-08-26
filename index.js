@@ -37,7 +37,6 @@ const addNewGoal = () => {
     
     // Continue on creating new goal
     const newGoal = document.createElement('li');
-    console.log(goalInputText);
     newGoal.textContent = goalInputText;
     goalList.appendChild(newGoal);
 };
