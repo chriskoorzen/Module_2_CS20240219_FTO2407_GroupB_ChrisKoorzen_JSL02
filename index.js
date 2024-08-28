@@ -1,3 +1,5 @@
+"use strict";       // "Be tolerant with others, and strict with yourself." - Marcus Aurelius
+
 const welcomeMessage = () => {
     const today = new Date().toDateString();
     document.getElementById('welcomeMessage').textContent = `🤸🏾‍♀️ Welcome to Your Fitness Tracker 🥗 Today is ${today}`;
